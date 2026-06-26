@@ -6,9 +6,9 @@ public class DeclareVariables {
 
     public static String declareVariables() {
         String response = "";
-        response = "Dear " + customerName + ", thank you for supporting our business!"
+        response = "Dear " + customerName + ", thank you for supporting our business!\n"
                 + "Cups of coffee bought: " + cupsOfCoffee + ".Cost of 1 cup of coffee: $"
-                + costOfCoffee + ".Your total is: $99.9.Tip is included? " + tip + ".";
+                + costOfCoffee + ".\nYour total is: $99.9.\nTip is included? " + tip + ".";
         return response;
     }
 
