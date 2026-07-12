@@ -20,8 +20,8 @@ public class Main {
         // Задание 3
         Rectangle rectangle = new Rectangle(1, 1);
 
-        rectangle.s();
-        rectangle.p();
+        rectangle.area();
+        rectangle.perimeter ();
 
         // Задание 4
         Product product = new Product("Tomato", 3223, 333);
