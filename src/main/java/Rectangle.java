@@ -1,18 +1,17 @@
 public class Rectangle {
-    int a;
-    int b;
+    int length;
+    int width;
 
-    Rectangle(int a, int b ) {
-        this.a = a;
-        this.b = b;
+    Rectangle(int length, int width ) {
+        this.length = length;
+        this.width = width;
     }
 
-    void s() {
-        System.out.println("Площадь: " + (a*b));
+    void area() {
+        System.out.println("Площадь: " + (length*width));
     }
 
-    void  p() {
-        System.out.println("Периметр: " + (2+(a+b)));
+    void  perimeter() {
+        System.out.println("Периметр: " + (2*(length+width)));
     }
 }
-

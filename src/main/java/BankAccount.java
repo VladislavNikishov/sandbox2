@@ -10,11 +10,11 @@ public class BankAccount {
     }
 
     void deposit(int amount) {
-        balance = balance + amount;
+        balance += amount;
     }
 
     void withdraw(int amount) {
-        balance = balance - amount;
+        balance -= amount;
     }
 
     void showBalance() {
